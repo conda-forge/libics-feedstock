@@ -1,5 +1,5 @@
 {% set name = "libics" %}
-{% set version = "1.6.5" %}
+{% set version = "1.6.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/svi-opensource/libics/archive/refs/tags/{{ version }}.tar.gz
-  sha256: c6e135e872f58052c6b1b4fc69331bb2d9ce505f78e8c0abc8819a633e1c4594
+  sha256: 147d5849b264ffe9a67facf8fbbfab649a970af57494b96efb41d7aad97740aa
   patches:
     - cmakelists.patch
     - cmakelists_cpp.patch
@@ -39,7 +39,7 @@ about:
   home: https://github.com/svi-opensource/libics
   license: LGPL-2.1-only
   license_file: GNU_LICENSE
-  summary: 'Image Cytometry Standard file reading and writing.'
+  summary: Image Cytometry Standard file reading and writing.
 
 extra:
   recipe-maintainers:
